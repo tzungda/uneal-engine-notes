@@ -10,5 +10,8 @@ asset_path = assets[i].package_name
 ### Load level
 unreal.EditorLoadingAndSavingUtils.load_map( asset_path )
 
+### Save level
+unreal.EditorAssetLibrary.save_asset( asset_path, only_if_is_dirty=True )
+
 ### Get asset name
 assets[i].asset_name 

@@ -1,14 +1,14 @@
-# Get all assets in, eg. path = /Game/MyFolder
+### Get all assets in, eg. path = /Game/MyFolder
 assets = unreal.AssetRegistryHelpers.get_asset_registry().get_assets_by_path( path, recursive = True )
 
-# Asset type
+### Asset type
 asset.get_class().get_name() #.eg 'Sequencer', 'World'
 
-# Get asset path
+### Get asset path
 asset_path = assets[i].package_name
 
-# Load level
+### Load level
 unreal.EditorLoadingAndSavingUtils.load_map( asset_path )
 
-# Get asset name
+### Get asset name
 assets[i].asset_name 

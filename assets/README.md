@@ -15,3 +15,6 @@ unreal.EditorAssetLibrary.save_asset( asset_path, only_if_is_dirty=True )
 
 ### Get asset name
 assets[i].asset_name 
+
+### Check if the asset exists
+unreal.EditorAssetLibrary.does_asset_exist( asset_path )  

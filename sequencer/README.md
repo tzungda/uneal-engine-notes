@@ -31,6 +31,6 @@ new_key.set_interpolation_mode( key.get_interpolation_mode() )
 new_key.set_tangent_weight_mode( key.get_tangent_weight_mode() )  
 new_key.set_leave_tangent_weight( key.get_leave_tangent_weight() )  
 
-### get selected sections(shots)
+### Get selected sections(shots)
 unreal.LevelSequenceEditorBlueprintLibrary.get_selected_sections()  
 
